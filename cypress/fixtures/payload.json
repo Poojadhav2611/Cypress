@@ -1,0 +1,13 @@
+{
+    "post": {
+        "name": "Shiva Ramakrishna",
+        "gender": "male",
+        "email": "shiva.ramakrishna${Math.floor(Math.random() * 1000) + 1}@gmail.com",
+        "status": "active"
+    },
+    "put": {
+        "name": "Tenali Ramakrishna",
+        "email": "pooja.jadhav${Math.floor(Math.random() * 10000) + 1}@gmail.com",
+        "status": "active"
+    }
+}

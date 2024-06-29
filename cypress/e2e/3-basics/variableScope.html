@@ -1,0 +1,20 @@
+<script>
+let a=20
+const b=10
+var c=5
+console.log("Global scope",a,b,c)
+
+function chechScope(){
+    //console.log("function start scope",c)
+
+    let a="fun let"
+    const b="fun const"
+    var c="fun var"
+
+    console.log("function End scope",a,b,c)
+
+}
+chechScope()
+
+console.log("Global scope (after fun)",a,b,c)
+</script>
